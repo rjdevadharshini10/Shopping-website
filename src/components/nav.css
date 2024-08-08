@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header
+{
+    width: 100%;
+    
+}
+.header .top-header
+{
+    display: flex;
+    padding: 20px 20px;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 0px 2px rgba(19, 14, 14, 0.2);
+}
+.header .top-header .logo
+{
+    cursor: pointer;
+    object-fit: cover;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-shadow: #232323;
+}
+.header .top-header .user 
+{
+    display: flex;
+    margin-right: 30px;
+}
+.header .top-header .user .btn
+{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.header .top-header .user .btn button   
+{
+    border :none;
+    outline : none;
+    font-size: 16px;
+    background: none;
+    cursor: pointer;
+}
+.header .last-header .search-bar input
+{
+    padding: 10px 10px;
+    outline: none;
+    background: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 250px;
+    border: none;
+    background-color: #c9cbcd;
+}
+.header .last-header .search-bar button
+{
+    padding: 10px 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    outline: none;
+    width: 50px;
+    background: #cd1e76;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+.header .last-header .search-bar button:hover
+{
+    background: #fed700;
+    color: #cd1e76;
+}
+.header .last-header 
+{
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    background: #232323;
+    justify-content: space-between;
+    align-items: center;
+}   
+.header .last-header .nav
+{
+    margin-top: 10px;
+}
+.header .last-header .nav ul
+{
+    display: flex;
+}
+.header .last-header .nav ul li
+{
+    list-style-type: none;
+}
+.header .last-header .nav ul .link
+{
+    margin: 5px;
+    margin-left: 50px;
+    margin-right: 10px;
+    /* padding: 10px; */
+    text-decoration: none;
+    color: #f6f7f8;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.header .last-header .nav ul .link:hover
+{
+    color: #fed700;
+}
+.header .last-header .icon
+{
+    display: flex;
+    margin: 5px;
+}
+.header .last-header .favorite
+{
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    border : none;
+    outline: none;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+}
+.header .last-header .cart
+{
+    /* margin-left: 5px;
+    margin-right: 20px; */
+    border : none;
+    outline: none;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+}
