@@ -4,7 +4,6 @@ import { BrowserRouter } from 'react-router-dom'
 import Rout from './components/rout'
 import Footer from './components/footer'
 import Homeproduct from './components/home_product'
-// import Picture from './assets/image/index.js'
 const App = () => {
   const [cart, setCart] = useState([])
   const [shop, setShop] = useState(Homeproduct)

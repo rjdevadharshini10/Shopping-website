@@ -13,7 +13,7 @@ const Footer = () => {
                     </div>
                     <div className='detail'>
                         <h3>Great Saving</h3>
-                        <p>Lorem ipsum dolor sit amet,</p>
+                        <p>Save the money</p>
                     </div>
                 </div>
                     <div className='box'>
@@ -21,8 +21,8 @@ const Footer = () => {
                         <FaShippingFast />
                     </div>
                     <div className='detail'>
-                        <h3>free delivery</h3>
-                        <p>Lorem ipsum dolor sit amet,</p>
+                        <h3>Free delivery</h3>
+                        <p>For order from $50</p>
                     </div>
                 </div>
                 <div className='box'>
@@ -31,7 +31,7 @@ const Footer = () => {
                     </div>
                     <div className='detail'>
                         <h3>24X7 support</h3>
-                        <p>Lorem ipsum dolor sit amet,</p>
+                        <p>Call us anytime</p>
                     </div>
                 </div>
                 <div className='box'>
@@ -39,15 +39,15 @@ const Footer = () => {
                         <FaWallet />
                     </div>
                     <div className='detail'>
-                        <h3>money back</h3>
-                        <p>Lorem ipsum dolor sit amet,</p>
+                        <h3>Money back</h3>
+                        <p>100% safety only secure payments</p>
                     </div>
                 </div>
             </div>
             <div className='right_box'>
                 <div className='header'>
                     <img src='image/logo.webp' alt=''></img>
-                    <p>Lorem ipsum dolor sit amet, consectetur Nuliscing elit. Duis faucibus ipsum id sem Putconsequat Text.</p>
+                    <p>Stay home and shop online you're too pretty to have to took for a parking spot. When the going gets tough the tough go online shopping.</p>
                 </div>
                 <div className='bottom'>
                     <div className='box'>

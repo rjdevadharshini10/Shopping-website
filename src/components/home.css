@@ -181,41 +181,48 @@
     font-weight: 600;
     background: #cd1e76;
     cursor: pointer;
+    border-radius: 5px;
 }
-.home .trending .container .left-box .products .container .box
+.home .trending .container .left-box .products button .link
 {
-    width: 185px;
-    height: 295px;
-    /* padding: 10px 10px; */
+    text-decoration: none;
+    color: #f6f6f6;
+}
+.home .trending .container .left-box .products .container .box 
+{
+    width: 180px;
+    height: 380px;
+    padding: 10px 10px;
     border: 4px solid #f6f7f8;
     margin-top: 20px;
     margin-left: 20px;
     overflow: hidden;
     border-radius: 5px;
 }
-.home .trending .container .left-box .products .container .box .img_box
+.home .trending .container .left-box .products .container .box .img-box
 {
     display: flex;
 }
-.home .trending .container .left-box .products .container .box .img_box img
+.home .trending .container .left-box .products .container .box .img-box img
 {
-    width: 190px;
-    height: 190px;
+    width: 260px;
+    height: 260px;
+    margin: -10px;
     object-fit: cover;
 }
-.home .trending .container .left-box .products .container .box .img_box .icon
+.home .trending .container .left-box .products .container .box .img-box .icon
 {
     display: flex;
     flex-direction: column;
-    margin-left: 0%;
+    margin-left: 50%;
     margin-top: 10px;
     transition: 0.5s;
 }
-.home .trending .container .left-box .products .container .box:hover .img_box .icon
+.home .trending .container .left-box .products .container .box:hover .img-box .icon
 {
     margin-left: -32%;
 }
-.home .trending .container .left-box .products .container .box .img_box .icon .icon_box
+.home .trending .container .left-box .products .container .box .img-box .icon .icon_box
 {
     padding: 10px 10px;
     margin-top: 10px;
@@ -226,7 +233,7 @@
     transition: 0.5s;
     cursor: pointer;
 }
-.home .trending .container .left-box .products .container .box .img_box .icon .icon_box:hover
+.home .trending .container .left-box .products .container .box .img-box .icon .icon_box:hover
 {
     color: #fff;
     background: #cd1e76;
@@ -243,6 +250,8 @@
     color: #232323;
     font-weight: 300;
     letter-spacing: 1px;
+    padding: 10px;
+    text-align: center;
 }
 .home .trending .container .left-box .products .container .box .info p
 {
@@ -250,13 +259,15 @@
     margin-top: 5px;
     font-size: 14px;
     letter-spacing: 1px;
+    text-align: center;
 }
 .home .trending .container .left-box .products .container .box .info .btn
 {
     margin-top: 10px;
+    width: 100%;
     align-items: center;
     padding: 10px 20px;
-    margin-left: 20px;
+    margin-left: 0px;
     border: none;
     background: none;
     outline: none;
@@ -264,6 +275,7 @@
     color: #232323;
     text-transform: capitalize;
     border-radius: 5px;
+    text-align: center;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -307,10 +319,13 @@
 {
     padding: 10px 20px;
 }
+.home .trending .container .right_box .right_container .testimonial .detail .img_box
+{
+    overflow: hidden;
+}
 .home .trending .container .right_box .right_container .testimonial .detail .img_box img
 {
-    margin-top: 40px;
-    margin-left: 50px;
+    margin:0px;
 }
 .home .trending .container .right_box .right_container .testimonial .detail .info
 {
@@ -418,46 +433,6 @@
     color: #fff;
     background: #cd1e76;
 }
-.home .banners
-{
-    padding: 20px 30px;
-    width: 100%;
-}
-.home .banners .container
-{
-    max-width: 100%;
-    display: flex;
-}
-.home .banners .container .left-box
-{
-    width: 24%;
-}
-.home .banners .container .left-box .box
-{
-    margin-top: 10px;
-}
-.home .banners .container .right_box
-{
-    display:none;
-    width: 75%;
-}
-.home .banners .container .right_box .top
-{
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-.home .banners .container .right_box .bottom
-{
-    max-width: 100%;
-    margin-top: 10px;
-}
-.home .banners .container .right_box .bottom img
-{
-    width: 100%;
-    object-fit: cover;
-}
 .home .product_type
 {
     padding: 20px 30px;
@@ -498,11 +473,19 @@
     border: 1px solid #f6f7f8;
     display: flex;
 }
-.home .product_type .container .box .productbox .img-box img
+.home .product_type .container .box .productbox .img-box
 {
     width: 100px;
     height: 100px;
     object-fit: cover;
+    overflow: hidden;
+}
+.home .product_type .container .box .productbox .img-box img
+{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
 }
 .home .product_type .container .box .productbox .detail
 {
